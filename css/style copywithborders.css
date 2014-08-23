@@ -1,0 +1,497 @@
+! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+ body {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	color: white;
+	text-shadow: 1px 2px 2px black;
+	letter-spacing: 0.8px;
+	border: 4px solid red;
+	font-weight: 300;
+}
+header {
+	border: 3px solid orange;
+	clear: both;
+	line-height: 1.1;
+	padding-left: 20px;
+}
+ h1 {
+ 	font-family: 'Calligraffitti', cursive;
+ 	font-size: 3.5em;
+ 	color: #418BCC;
+ 	text-shadow: 1px 2px 3px black;
+ 	font-weight: 500;
+ }	
+ header h2 {
+ 	font-style: italic;
+	font-weight: 300;
+ }
+ .container {
+ 	width: 1200px;
+ 	margin: 0 auto;
+ 	border: 4px solid blue;
+ } 	
+ .social-icon {     
+	width: 30%;
+}
+.opacity {
+	background-color: rgba(0, 0, 0, 0.6);
+ 	border-top: 1px solid #fff;
+ 	/*border-radius: 5px;	*/
+}
+.opacity2 {
+	background-color: rgba(0, 0, 0, 0.6);
+ 	border: 1px solid grey;
+ 	border-radius: 5px;	
+}
+span {
+	text-transform: uppercase;
+	font-size: 1.2em;
+ 	color: #418BCC;
+ 	font-weight: bold;
+}
+/******************************************
+home
+******************************************/
+
+.homebackground {
+	background-image: url(../img/jana1.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	/*height: 100%;*/
+	/*height: auto;*/
+}
+nav {
+	border: 3px solid orange;
+
+}
+.navbar1 {
+	border: 3px solid orange;
+	float: left;
+	padding-bottom: 20px;
+	height: 83px;
+}
+.navbar1 li {
+	float: left;
+	list-style: none;
+}
+.navbar1 li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 6px 15px;
+}
+ul.dropnav, .submenu {
+	padding: 5px;
+}
+.navbar1 a:hover {
+	color: #418BCC;
+}
+.submenu {
+	display: none;
+}
+ul.dropnav li:hover > .submenu {
+	display: block;
+}
+.submenu li {
+	display: block;
+	float: none;
+}
+.navbar2 {
+	float: right;
+}
+.navbar2 li {
+	list-style: none;
+	float: right;
+}
+.navbar2 li a {
+	padding: 6px 5px;
+}
+.frontpage {
+	font-size: 3em;
+	font-family: 'Calligraffitti', cursive;
+	text-align: center;
+	margin-top: 380px;
+}
+/******************************************
+Bio
+******************************************/
+
+ .biobackground {
+ 	background-image: url(../img/jana2.jpg);
+ 	background-attachment: fixed;
+ 	background-size: 100%;
+ 	height: 100%
+ }
+
+ .bio {
+ 	width: 75%;
+ 	margin: 5% auto;
+ 	padding: 15px;
+ }
+
+/******************************************
+Inspiration
+******************************************/
+
+.inspbackground {
+ 	background-image: url(../img/jana3.jpg);
+ 	background-attachment: fixed;
+ 	background-size: 100%;
+ 	height: 100%;
+ }
+
+.inspiration, 
+.questions,
+.prophecy {
+ 	padding: 15px;
+	margin: 20px;
+ }
+ .questions,
+ .prophecy {
+ 	width: 45%;
+ 	float: left;
+ }
+
+/******************************************
+training
+******************************************/
+
+.trainbackground {
+ 	background-image: url(../img/jana4.jpg);
+ 	background-attachment: fixed;
+ 	background-size: 100%;
+ 	height: 100%;
+ }
+ .training {  /*why does it mess up if i put 100% width*/
+ 	border: 4px solid green;
+ }
+ .traininfo {
+ 	 	border: 4px solid green;
+ }
+.trainexplain .words {
+	/*border: 4px solid green;*/
+	/*background: blue;
+	opacity: 0.6;*/
+}
+ .trainingposter {
+	border: 2px solid white;
+	border-radius: 5px;
+	float: left;
+	margin-left: 105px;
+ }
+/*.training,*/
+/*.dates,*/
+/*.location,*/
+.trainexplain,
+.aboutgaiatri,
+.edmonton,
+.calgary
+ {
+ 	padding: 15px;
+	margin: 20px;
+}
+.trainexplain,
+.aboutgaiatri {
+	width: 45%;
+	float: left;
+	margin-left: 30px;
+}
+
+.location {
+	width: 45%;
+	float: left;
+	margin-left: 2.5%
+}
+.dates {
+	width: 45%;
+	float: left;
+	margin-left: 5% /*this margin is bigger to fix */
+}
+.noorishmap,
+.bhodimap {
+	border: 2px solid black;
+}
+/******************************************
+workshop
+******************************************/
+.workbackground {
+	background-image: url(../img/jana5.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 100%;
+}
+.workshop,
+.workshopposter {
+	width: 45%;
+	margin: 2.5%;
+	padding: 15px;
+	float: left;
+}
+.workshopposter {
+	border: 1px grey solid;
+	border-radius: 5px;
+}
+
+/******************************************
+retreat
+******************************************/
+.retreatbackground {
+	background-image: url(../img/jana6.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	height:100%;    /*why does this fuck shit up?*/
+}
+.retreatinfo,
+.prices,
+.retreatposter {
+ 	padding: 15px;
+	margin: 2.5%;
+	width: 45%;
+	float: left;
+}
+.retreatposter {
+	border: 1px grey solid;
+	border-radius: 5px;
+}
+
+/******************************************
+media
+******************************************/
+.mediabackground {
+	background-image: url(../img/jana7.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 100%;
+}
+.gallery2 {
+	border: 5px solid black;
+	padding: 15px;
+	margin: 20px;
+}
+.gallerywrapper h2 {
+	padding: 15px;
+	margin: 20px;
+}
+.videowrapper {
+	border: 5px solid pink;
+	width: 60%;
+	float: left;
+}
+.video {
+	border: 1px solid grey;
+	list-style: none;
+	width: 46%;
+	padding: 2%;
+	margin: 2%;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+}
+/******************************************
+flexslider
+******************************************/
+.flexslider h2 {
+	text-transform: uppercase;
+	color: #418BCC;
+	font-style: normal;
+	font-size: 2.5em;
+}
+.slides p a {
+	color: #418BCC;
+	text-decoration: none;
+}
+.video p a {
+	color: #418BCC;
+	text-decoration: none;
+}
+.videosize {
+	/*width: 100%; 
+	height: 100%;*/ /*why can i not resize like this? is it b/c it has a set width and height inside the link?*/
+}
+.gallerywrapper {
+	border: 5px solid white;
+	margin: 20px;
+	padding: 15px;
+}
+.gallerywrapper {
+	/*max-width: 1000px;*/ /*can get rid of this to make it full page size*/
+	/*width: 90%;*/	/*can get rid of this to make it full page size*/
+	margin: 0 auto;
+}
+.flexslider {
+	list-style: none;
+	border: 5px solid teal;
+	clear: both;
+	height: 800px;
+	margin: 20px;
+	padding: 15px;
+	text-align: center;
+}
+iframe {
+	border: 2px black solid;
+	border-radius: 5px;
+}
+.flexwrap {
+	width: 100%; /*if you get rid of the sizing above you can make 100%*/
+	margin: 0 auto;
+}
+/*you can just grab the default from the inspector and change the styling*/
+.flex-control-paging ol {
+	/*trying to figure out how to get this to size properly*/ 
+}
+
+.flex-control-paging li a {
+		/*tochange the circles below*/
+}
+.twitterwrapper {
+	width: 40%;
+	border: 5px solid pink;
+	float: left;
+}
+/******************************************
+connect
+******************************************/
+.connect {
+	/*position: relative;*/
+}
+.connectbackground {
+	background-image: url(../img/jana10.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 100%;
+}
+.connect section ul {
+	list-style: none;
+}
+.connect section ul li {
+	padding: 25px;
+	float: left;
+}
+.form {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 20px;
+}
+.form form {
+	width: 33%;
+	float: right;
+	margin-top: 80px;
+	border: 5px solid orange;
+}
+.form h1 {
+	font-size: 1.3em;
+	color: white;
+	margin-left: 5px;
+}
+/*.name, .email, .message {
+	color: black;
+	padding: 5px;
+	border-radius: 4px;
+	background-color: #F4F2F7;
+	border: 2px solid grey;
+	margin: 5px;
+	width: 100%;	
+}*/
+/*.submit {
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	position: absolute;
+	}*/
+.navbar3 li {
+	list-style: none;
+	float: right; /*for some reason - float makes these guys smaller*/
+}
+.navbar3 a {
+	margin-right: 10px;
+}
+.wooform {
+	width: 100%;
+	background: white;
+	border: 2px grey solid;
+	border-radius: 5px;
+	float: right;
+}
+.fb-like { 
+	float: left;
+	background: white;
+	border: 3px solid pink;
+	display: inline-block;
+	/*position: absolute;
+	bottom: 0;
+	right: 0;*/
+}
+
+/******************************************
+footers
+******************************************/
+
+footer {
+	font-family: 'Calligraffitti', cursive;
+	text-shadow: 1px 2px 2px black;
+	padding: 5px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 2em;
+	letter-spacing: 7px;
+	border: 1px 0px 0px 0px solid #fff;
+	clear: both;
+}
+footer p, 
+.firstfoot p,
+.inspfoot p {
+	padding: 10px;
+	margin: 0;
+}
+.firstfoot {
+	margin-top: 50%; /*whaaaaat? %?*/
+	border: 1px 0 0 0 solid #fff;
+
+}
+.inspfoot {
+	letter-spacing: 1px;
+	border: 1px 0 0 0 solid #fff;
+}
+footer .credit {
+	font-size: 0.4em;
+	letter-spacing: 0.1em;
+	color: white;
+	text-align: center; 
+	margin-bottom: 1px;
+	font-family: sans-serif;
+	font-weight: 200;
+}
+
+/*ol {
+	margin: 620px;
+	margin-left: 0;*/
+}
+/*ol li {
+	list-style: none;
+}
+a.flex-active {
+	list-style: none;
+}
+
+/******************************************
+navslider
+******************************************/
+
